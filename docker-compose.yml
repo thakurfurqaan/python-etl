@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  python-etl-container:
+    build: "..."
+    image: python-etl
+    ports:
+      - "8001:3000"
+    command: pytest tests
+    env_file:
+      - .env
