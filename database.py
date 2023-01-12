@@ -19,3 +19,12 @@ class Database:
             conn_str: str = f'postgresql+psycopg2://{self.DB_HOST}:{self.DB_PASSWORD}@{self.DB_HOST}/{self.DB_PORT}'
             engine = create_engine(conn_str)
             return engine
+
+        
+    def get_connection(self):
+        # TODO: Check if connection exists
+        # TODO: Create connection
+
+    # TODO: Close connection
+
+    # TODO: Execute SQL: create connection, execute sql, close connection
