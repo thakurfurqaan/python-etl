@@ -20,6 +20,9 @@ class Database:
             engine = create_engine(conn_str)
             return engine
 
+    # TODO: Upsertion logic
+    def upsert(self):
+        pass
         
     def get_connection(self):
         # TODO: Check if connection exists
