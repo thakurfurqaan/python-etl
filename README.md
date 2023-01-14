@@ -21,7 +21,7 @@ This is a Python library for creating end-to-end ETL pipelines. It is currently 
 1. Pandas
 
 ### Data Loading
-1. Upserting data using Pandas
+1. Upserting data using Pandas.
 2. Triggers
 
 ## Maintainers
